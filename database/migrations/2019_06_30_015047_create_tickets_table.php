@@ -19,17 +19,20 @@ class CreateTicketsTable extends Migration
             $table->string('subject');
             $table->text('description');
 
-            $table->unsignedBigInteger('client_id');
-            $table->foreign('client_id')->references('id')->on('clients');
-
-            $table->unsignedBigInteger('category2_id');
-            $table->foreign('category2_id')->references('id')->on('category2s');
-
             $table->unsignedBigInteger('status_id');
             $table->foreign('status_id')->references('id')->on('statuses');
 
-            $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
+            // $table->unsignedBigInteger('client_id');
+            // $table->foreign('client_id')->references('id')->on('clients');
+
+            // $table->unsignedBigInteger('category2_id');
+            // $table->foreign('category2_id')->references('id')->on('category2s');
+
+            // $table->unsignedBigInteger('status_id');
+            // $table->foreign('status_id')->references('id')->on('statuses');
+
+            // $table->unsignedBigInteger('user_id');
+            // $table->foreign('user_id')->references('id')->on('users');
 
             $table->timestamps();
         });
