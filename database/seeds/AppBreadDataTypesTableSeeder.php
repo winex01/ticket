@@ -143,6 +143,24 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'created_at' => '2019-06-30 01:29:03',
                 'updated_at' => '2019-06-30 01:29:03',
             ),
+            7 => 
+            array (
+                'id' => 10,
+                'name' => 'tickets',
+                'slug' => 'tickets',
+                'display_name_singular' => 'All Ticket',
+                'display_name_plural' => 'Tickets',
+                'icon' => 'voyager-window-list',
+                'model_name' => 'App\\Ticket',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2019-06-30 02:08:25',
+                'updated_at' => '2019-06-30 09:04:38',
+            ),
         ));
         
         
