@@ -265,6 +265,126 @@ class AppPermissionRolesPermissionsTableSeeder extends Seeder
                 'created_at' => '2019-06-29 10:57:08',
                 'updated_at' => '2019-06-29 10:57:08',
             ),
+            31 => 
+            array (
+                'id' => 37,
+                'key' => 'browse_category2s',
+                'table_name' => 'category2s',
+                'created_at' => '2019-06-30 01:06:20',
+                'updated_at' => '2019-06-30 01:06:20',
+            ),
+            32 => 
+            array (
+                'id' => 38,
+                'key' => 'read_category2s',
+                'table_name' => 'category2s',
+                'created_at' => '2019-06-30 01:06:20',
+                'updated_at' => '2019-06-30 01:06:20',
+            ),
+            33 => 
+            array (
+                'id' => 39,
+                'key' => 'edit_category2s',
+                'table_name' => 'category2s',
+                'created_at' => '2019-06-30 01:06:20',
+                'updated_at' => '2019-06-30 01:06:20',
+            ),
+            34 => 
+            array (
+                'id' => 40,
+                'key' => 'add_category2s',
+                'table_name' => 'category2s',
+                'created_at' => '2019-06-30 01:06:20',
+                'updated_at' => '2019-06-30 01:06:20',
+            ),
+            35 => 
+            array (
+                'id' => 41,
+                'key' => 'delete_category2s',
+                'table_name' => 'category2s',
+                'created_at' => '2019-06-30 01:06:20',
+                'updated_at' => '2019-06-30 01:06:20',
+            ),
+            36 => 
+            array (
+                'id' => 42,
+                'key' => 'browse_statuses',
+                'table_name' => 'statuses',
+                'created_at' => '2019-06-30 01:09:58',
+                'updated_at' => '2019-06-30 01:09:58',
+            ),
+            37 => 
+            array (
+                'id' => 43,
+                'key' => 'read_statuses',
+                'table_name' => 'statuses',
+                'created_at' => '2019-06-30 01:09:58',
+                'updated_at' => '2019-06-30 01:09:58',
+            ),
+            38 => 
+            array (
+                'id' => 44,
+                'key' => 'edit_statuses',
+                'table_name' => 'statuses',
+                'created_at' => '2019-06-30 01:09:58',
+                'updated_at' => '2019-06-30 01:09:58',
+            ),
+            39 => 
+            array (
+                'id' => 45,
+                'key' => 'add_statuses',
+                'table_name' => 'statuses',
+                'created_at' => '2019-06-30 01:09:58',
+                'updated_at' => '2019-06-30 01:09:58',
+            ),
+            40 => 
+            array (
+                'id' => 46,
+                'key' => 'delete_statuses',
+                'table_name' => 'statuses',
+                'created_at' => '2019-06-30 01:09:58',
+                'updated_at' => '2019-06-30 01:09:58',
+            ),
+            41 => 
+            array (
+                'id' => 47,
+                'key' => 'browse_clients',
+                'table_name' => 'clients',
+                'created_at' => '2019-06-30 01:29:03',
+                'updated_at' => '2019-06-30 01:29:03',
+            ),
+            42 => 
+            array (
+                'id' => 48,
+                'key' => 'read_clients',
+                'table_name' => 'clients',
+                'created_at' => '2019-06-30 01:29:03',
+                'updated_at' => '2019-06-30 01:29:03',
+            ),
+            43 => 
+            array (
+                'id' => 49,
+                'key' => 'edit_clients',
+                'table_name' => 'clients',
+                'created_at' => '2019-06-30 01:29:03',
+                'updated_at' => '2019-06-30 01:29:03',
+            ),
+            44 => 
+            array (
+                'id' => 50,
+                'key' => 'add_clients',
+                'table_name' => 'clients',
+                'created_at' => '2019-06-30 01:29:03',
+                'updated_at' => '2019-06-30 01:29:03',
+            ),
+            45 => 
+            array (
+                'id' => 51,
+                'key' => 'delete_clients',
+                'table_name' => 'clients',
+                'created_at' => '2019-06-30 01:29:03',
+                'updated_at' => '2019-06-30 01:29:03',
+            ),
         ));
         
         
