@@ -85,9 +85,9 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2019-06-29 10:57:08',
-                'updated_at' => '2019-06-29 10:57:08',
+                'updated_at' => '2019-07-02 12:51:15',
             ),
             4 => 
             array (
@@ -103,9 +103,9 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2019-06-30 01:06:20',
-                'updated_at' => '2019-06-30 01:06:20',
+                'updated_at' => '2019-07-02 12:52:06',
             ),
             5 => 
             array (
@@ -121,9 +121,9 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2019-06-30 01:09:58',
-                'updated_at' => '2019-06-30 01:09:58',
+                'updated_at' => '2019-07-02 12:50:59',
             ),
             6 => 
             array (
@@ -139,9 +139,9 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2019-06-30 01:29:03',
-                'updated_at' => '2019-06-30 01:29:03',
+                'updated_at' => '2019-07-02 12:51:28',
             ),
             7 => 
             array (
@@ -159,7 +159,25 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2019-06-30 02:08:25',
-                'updated_at' => '2019-06-30 09:04:38',
+                'updated_at' => '2019-07-02 12:53:34',
+            ),
+            8 => 
+            array (
+                'id' => 11,
+                'name' => 'sites',
+                'slug' => 'sites',
+                'display_name_singular' => 'Site',
+                'display_name_plural' => 'Sites',
+                'icon' => 'voyager-helm',
+                'model_name' => 'App\\Site',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2019-07-02 12:37:33',
+                'updated_at' => '2019-07-02 12:49:54',
             ),
         ));
         
