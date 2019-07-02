@@ -385,6 +385,46 @@ class AppPermissionRolesPermissionsTableSeeder extends Seeder
                 'created_at' => '2019-06-30 01:29:03',
                 'updated_at' => '2019-06-30 01:29:03',
             ),
+            46 => 
+            array (
+                'id' => 52,
+                'key' => 'browse_tickets',
+                'table_name' => 'tickets',
+                'created_at' => '2019-06-30 02:08:26',
+                'updated_at' => '2019-06-30 02:08:26',
+            ),
+            47 => 
+            array (
+                'id' => 53,
+                'key' => 'read_tickets',
+                'table_name' => 'tickets',
+                'created_at' => '2019-06-30 02:08:26',
+                'updated_at' => '2019-06-30 02:08:26',
+            ),
+            48 => 
+            array (
+                'id' => 54,
+                'key' => 'edit_tickets',
+                'table_name' => 'tickets',
+                'created_at' => '2019-06-30 02:08:26',
+                'updated_at' => '2019-06-30 02:08:26',
+            ),
+            49 => 
+            array (
+                'id' => 55,
+                'key' => 'add_tickets',
+                'table_name' => 'tickets',
+                'created_at' => '2019-06-30 02:08:26',
+                'updated_at' => '2019-06-30 02:08:26',
+            ),
+            50 => 
+            array (
+                'id' => 56,
+                'key' => 'delete_tickets',
+                'table_name' => 'tickets',
+                'created_at' => '2019-06-30 02:08:26',
+                'updated_at' => '2019-06-30 02:08:26',
+            ),
         ));
         
         
