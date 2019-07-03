@@ -670,7 +670,7 @@ class AppBreadDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"validation":{"rule":"required"}}',
                 'order' => 2,
             ),
             41 => 
@@ -750,7 +750,7 @@ class AppBreadDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"validation":{"rule":"required"}}',
                 'order' => 4,
             ),
             46 => 
@@ -1024,6 +1024,22 @@ class AppBreadDataRowsTableSeeder extends Seeder
                 'delete' => 1,
                 'details' => '{}',
                 'order' => 3,
+            ),
+            63 => 
+            array (
+                'id' => 75,
+                'data_type_id' => 10,
+                'field' => 'ticket_belongsto_site_relationship',
+                'type' => 'relationship',
+                'display_name' => 'sites',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\Site","table":"sites","type":"belongsTo","column":"site_id","key":"id","label":"id","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'order' => 10,
             ),
         ));
         
