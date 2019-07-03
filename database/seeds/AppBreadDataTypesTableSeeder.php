@@ -159,7 +159,7 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2019-06-30 02:08:25',
-                'updated_at' => '2019-07-02 12:53:34',
+                'updated_at' => '2019-07-03 12:06:56',
             ),
             8 => 
             array (
@@ -177,7 +177,7 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2019-07-02 12:37:33',
-                'updated_at' => '2019-07-02 12:49:54',
+                'updated_at' => '2019-07-03 11:52:08',
             ),
         ));
         

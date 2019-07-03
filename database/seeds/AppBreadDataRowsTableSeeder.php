@@ -1009,6 +1009,22 @@ class AppBreadDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 16,
             ),
+            62 => 
+            array (
+                'id' => 74,
+                'data_type_id' => 10,
+                'field' => 'site_id',
+                'type' => 'text',
+                'display_name' => 'Site Id',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 3,
+            ),
         ));
         
         
