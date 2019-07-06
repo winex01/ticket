@@ -211,7 +211,6 @@
         if (siteId != '' || isNaN(siteId) == true) {
             $('select[name="site_id"]').append('<option value="'+siteId+'">'+siteId+'</option>');
             $('select[name="site_id"]').val(siteId).trigger('change');
-            // $('select[name="site_id"]').attr('disabled', 'disabled');
         }
     </script>
 @stop
