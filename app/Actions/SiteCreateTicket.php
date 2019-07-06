@@ -34,7 +34,7 @@ class SiteCreateTicket extends AbstractAction
 
     public function getDefaultRoute()
     {
-        return route('voyager.dashboard');
+        return route('site.create.ticket', $this->data->id);
     }
 
     public function shouldActionDisplayOnDataType()
