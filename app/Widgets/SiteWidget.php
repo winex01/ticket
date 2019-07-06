@@ -6,7 +6,7 @@ use Illuminate\Support\Str;
 use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Widgets\BaseDimmer;
 
-class TicketWidget extends BaseDimmer
+class SiteWidget extends BaseDimmer
 {
     /**
      * The configuration array.
@@ -21,18 +21,18 @@ class TicketWidget extends BaseDimmer
      */
     public function run()
     {
-        $count = \App\Ticket::count();
-        $string = 'Tickets';
+        $count = \App\Site::count();
+        $string = 'Sites';
 
         return view('voyager::dimmer', array_merge($this->config, [
-            'icon'   => 'voyager-window-list',
+            'icon'   => 'voyager-helm',
             'title'  => "{$count} {$string}",
-            'text'   => 'You have '.$count.' tickets in your database. Click on button below to view all tickets.',
+            'text'   => 'You have '.$count.' sites in your database. Click on button below to view all sites.',
             'button' => [
-                'text' => __('View all tickets'),
-                'link' => route('voyager.tickets.index'),
+                'text' => __('View all sites'),
+                'link' => route('voyager.sites.index'),
             ],
-            'image' => voyager_asset('images/widget-backgrounds/02.jpg'),
+            'image' => voyager_asset('images/widget-backgrounds/03.jpg'),
         ]));
     }
 
@@ -43,6 +43,6 @@ class TicketWidget extends BaseDimmer
      */
     public function shouldBeDisplayed()
     {
-        return app('VoyagerAuth')->user()->can('browse', app('App\Ticket'));
+        return app('VoyagerAuth')->user()->can('browse', app('App\Site'));
     }
 }
