@@ -148,6 +148,7 @@ return [
             'TCG\\Voyager\\Widgets\\UserDimmer',
             'App\\Widgets\\TicketWidget',
             'App\\Widgets\\SiteWidget',
+            'App\\Widgets\\Category2Widget',
         ],
 
     ],
