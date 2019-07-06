@@ -9,6 +9,6 @@ class SiteTicketController extends Controller
     //
     public function create($id)
     {
-    	dd($id);
+    	clock($id);
     }
 }
