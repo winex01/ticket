@@ -148,7 +148,7 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'id' => 10,
                 'name' => 'tickets',
                 'slug' => 'tickets',
-                'display_name_singular' => 'All Ticket',
+                'display_name_singular' => 'Ticket',
                 'display_name_plural' => 'Tickets',
                 'icon' => 'voyager-window-list',
                 'model_name' => 'App\\Ticket',
@@ -159,15 +159,15 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2019-06-30 02:08:25',
-                'updated_at' => '2019-07-03 12:30:47',
+                'updated_at' => '2019-07-06 13:59:02',
             ),
             8 => 
             array (
                 'id' => 11,
                 'name' => 'sites',
                 'slug' => 'sites',
-                'display_name_singular' => 'Site',
-                'display_name_plural' => 'Sites',
+                'display_name_singular' => 'Site / Master DB',
+                'display_name_plural' => 'Sites / Master DB',
                 'icon' => 'voyager-helm',
                 'model_name' => 'App\\Site',
                 'policy_name' => NULL,
@@ -177,7 +177,7 @@ class AppBreadDataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2019-07-02 12:37:33',
-                'updated_at' => '2019-07-03 11:52:08',
+                'updated_at' => '2019-07-06 13:59:42',
             ),
         ));
         
